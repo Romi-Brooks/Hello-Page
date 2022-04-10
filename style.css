@@ -7,8 +7,7 @@
 }
 
 .textCenter {
-
-   text-align: center;
+  text-align: center;
 }
 
 .TextQuote {
@@ -29,7 +28,6 @@
 }
 
 .socialLink li {
-  z-index: -1;
   display: inline;
   margin: 5px;
   color: #444;
@@ -37,7 +35,6 @@
 
 .socialLink a {
    opacity: 0.3;
-   z-index: -1;
    transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
@@ -46,7 +43,7 @@
 .socialLink img {
    margin-top: 15px;
    width: 3%;
-    padding-left: 50px;
+   padding-left: 50px;
    padding-right: 50px;
 }
 
@@ -75,13 +72,16 @@
 }
 
 .aeroGlassSelf{
-    margin-top: 21cm;
+    z-index: 1;
+    margin-top: 20cm;
     width: 800px;
     height: 50px;
 }
 
 <!-- *{margin: 0;padding:0;}-->
 .avatarImg{
+  position: flex;
+    z-index: 1;
     width: 150px;
     height: 150px;
     margin: 50px auto;
@@ -93,10 +93,12 @@
     overflow: hidden;
 }
 
-.avatarImg img{
-    width: 200px;
-    height: 150px;
+.avatarImg p {
     z-index: 1;
+}
+.avatarImg img{
+    width: 150px;
+    height: 150px;
 }
 
 a {
@@ -112,5 +114,6 @@ body {
   background-size: cover;
 }
 .footer {
-  margin-top: 700px;
+  font-size: 9px;
+  margin-top: 630px;
 }
