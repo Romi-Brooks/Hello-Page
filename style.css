@@ -73,18 +73,18 @@
 
 .aeroGlassSelf{
     z-index: 1;
-    margin-top: 20cm;
+    margin-top: 20.5cm;
     width: 800px;
     height: 50px;
 }
 
 <!-- *{margin: 0;padding:0;}-->
 .avatarImg{
-  position: flex;
+
     z-index: 1;
     width: 150px;
     height: 150px;
-    margin: 50px auto;
+    margin: 25px auto ;
     border: 3px solid white;
     border-radius: 50%;
     display: flex;
