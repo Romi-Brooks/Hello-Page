@@ -54,4 +54,12 @@ Go to index.html
 ```
 
 ## **To Do:**
-1. - [x] Add Music Player
+1. - [x] Add Music Player 😍
+2. - [ ] Add own introductory text 😂
+3. - [ ] Rewrite Footer position 😫
+4. - [ ] Fix known bugs 😢
+
+
+## **CopyRight:**
+> The MIT License (MIT)  
+ >Copyright (c) 2022 by Leonardo (https://codepen.io/leonardo-asher-grace/pen/wvpyNVr)
