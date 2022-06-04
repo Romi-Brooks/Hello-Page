@@ -2,6 +2,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.AllTimeCenter {
+     position: flex;
+     margin-top: 30px;
+}
 .textMovedown {
   margin-top: 40px;
 }
@@ -49,7 +53,6 @@
 
 .aeroBefore{
     content: '';
-    position: absolute;
     top: 0; bottom: 0;
     left: 0; right: 0;
     filter: blur(30px);
@@ -58,7 +61,6 @@
 }
 
 .aeroGlass{
-    position: absolute;
     top: 0; bottom: 0;
     left: 0; right: 0;
     width: 800px;
@@ -73,7 +75,7 @@
 
 .aeroGlassSelf{
     z-index: 1;
-    margin-top: 20.5cm;
+    margin-top: 0.8cm;
     width: 800px;
     height: 50px;
 }
@@ -84,7 +86,7 @@
     z-index: 1;
     width: 150px;
     height: 150px;
-    margin: 25px auto ;
+    margin: -15px auto ;
     border: 3px solid white;
     border-radius: 50%;
     display: flex;
@@ -110,10 +112,12 @@ a {
 body {
   background: url('https://www.toopic.cn/public/uploads/small/163756299623163756299625.png');
   -webkit-background-size: cover;
-  -o-background-size: cover;                
+  -o-background-size: cover;
   background-size: cover;
 }
+
 .footer {
+  position: flex;
   font-size: 9px;
-  margin-top: 630px;
+  margin-top: 39.5px;
 }
