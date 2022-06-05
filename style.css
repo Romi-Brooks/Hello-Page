@@ -110,7 +110,7 @@ a {
 }
 
 body {
-  background: url('https://www.toopic.cn/public/uploads/small/163756299623163756299625.png');
+  background: url('https://www.toopic.cn/public/uploads/small/163756299623163756299625.png') 50%/cover no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
