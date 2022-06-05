@@ -56,8 +56,9 @@ Go to index.html
 ## **To Do:**
 1. - [x] Add Music Player 😍
 2. - [ ] Add own introductory text 😂
-3. - [ ] Rewrite Footer position 😫
-4. - [ ] Fix known bugs 😢
+3. - [ ] Add Mobile phone adaptation 🙄
+4. - [ ] Rewrite Footer position 😫
+5. - [ ] Fix known bugs 😢
 
 
 ## **CopyRight:**
