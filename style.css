@@ -16,12 +16,12 @@
 
 .TextQuote {
   font-size: 8px;
-  text-weight: 20;
+  font-weight: 20;
 }
 
 .textMain {
    font-size: 18px;
-   text-weight: 55;
+   font-weight: 55;
    margin: 20px;
    padding-left: 95px;
    padding-right: 95px;
@@ -80,7 +80,7 @@
     height: 50px;
 }
 
-<!-- *{margin: 0;padding:0;}-->
+*{margin: 0;padding:0;}
 .avatarImg{
 
     z-index: 1;
@@ -102,25 +102,36 @@
     width: 150px;
     height: 150px;
 }
-
+.songTextFix {
+  font-size: small;
+}
 a {
   text-decoration: none;
   font-weight: 400;
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 body {
-  background: url('https://www.toopic.cn/public/uploads/small/163756299623163756299625.png') 50%/cover no-repeat;
+  background: url('https://www.toopic.cn/public/uploads/small/163756299623163756299625.png');
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-
-.content {
-  min-height: calc(15vh - 70px);
+.footer {
+  position: unset;
+  margin-top: 40px;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
 }
 
-.footer {
-  font-size: 9px;
-  height: 50px;
+@media all and (max-width: 800px) {
+  .footer {
+    position: fixed;
+  }
 }
