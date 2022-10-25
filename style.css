@@ -55,7 +55,7 @@
     content: '';
     top: 0; bottom: 0;
     left: 0; right: 0;
-    filter: blur(30px);
+    filter: blur(-10px);
     z-index: -1;
     margin: -30px;
 }
@@ -68,7 +68,7 @@
     line-height: 2;
     margin: auto;
     border-radius: 5px;
-    background: rgba(240, 255, 255, .3);
+    background: rgba(249, 240, 255, 0.3);
     box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, .3);
     overflow: hidden;
 }
@@ -111,27 +111,27 @@ a {
   color: rgb(255, 255, 255);
 }
 
+.musicMoveDown {
+  margin-top: 4cm;
+}
+
 body {
-  background: url('https://www.toopic.cn/public/uploads/small/163756299623163756299625.png');
+  background: url('./img/background/3177905.jpg');
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-.footer {
-  position: unset;
-  margin-top: 40px;
-  bottom: 0;
-  width: 100%;
-  height: 50px;
-  line-height: 50px;
-  background-color: #000;
-  color: #fff;
-  text-align: center;
-  font-size: 10px;
+/*Footer*/
+.content {
+  min-height: calc(50vh - 90px);
 }
-
-@media all and (max-width: 800px) {
-  .footer {
-    position: fixed;
-  }
+.footerText {
+  color:  	  #E8E8E8;
+}
+.footer a {
+  color:  	  #E8E8E8;
+}
+.footer {
+  font-size: 9px;
+  height: 50px;
 }
