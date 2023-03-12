@@ -3,7 +3,7 @@
 }
 
 .AllTimeCenter {
-     position: flex;
+     display: flex;
      margin-top: 30px;
 }
 
@@ -239,7 +239,6 @@ body {
 }
 
 @media screen and (max-width: 545px) {
-  .avatarImg {
 
 }
   .aeroGlass{
